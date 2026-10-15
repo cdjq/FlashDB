@@ -1,0 +1,86 @@
+#######################################
+# Syntax Coloring Map for FlashDB
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+fdb_kvdb_t	KEYWORD1
+fdb_tsdb_t	KEYWORD1
+fdb_blob_t	KEYWORD1
+fdb_kv_t	KEYWORD1
+fdb_tsl_t	KEYWORD1
+fdb_err_t	KEYWORD1
+fdb_time_t	KEYWORD1
+fdb_kv_iterator_t	KEYWORD1
+fdb_tsl_status_t	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+fal_init	KEYWORD2
+fal_partition_find	KEYWORD2
+fal_partition_read	KEYWORD2
+fal_partition_write	KEYWORD2
+fal_partition_erase	KEYWORD2
+fal_partition_erase_all	KEYWORD2
+fal_show_part_table	KEYWORD2
+
+fdb_kvdb_init	KEYWORD2
+fdb_kvdb_control	KEYWORD2
+fdb_kvdb_check	KEYWORD2
+fdb_kvdb_deinit	KEYWORD2
+fdb_kv_set	KEYWORD2
+fdb_kv_get	KEYWORD2
+fdb_kv_set_blob	KEYWORD2
+fdb_kv_get_blob	KEYWORD2
+fdb_kv_del	KEYWORD2
+fdb_kv_get_obj	KEYWORD2
+fdb_kv_to_blob	KEYWORD2
+fdb_kv_set_default	KEYWORD2
+fdb_kv_print	KEYWORD2
+fdb_kv_iterator_init	KEYWORD2
+fdb_kv_iterate	KEYWORD2
+
+fdb_tsdb_init	KEYWORD2
+fdb_tsdb_control	KEYWORD2
+fdb_tsdb_deinit	KEYWORD2
+fdb_tsl_append	KEYWORD2
+fdb_tsl_append_with_ts	KEYWORD2
+fdb_tsl_iter	KEYWORD2
+fdb_tsl_iter_reverse	KEYWORD2
+fdb_tsl_iter_by_time	KEYWORD2
+fdb_tsl_query_count	KEYWORD2
+
+fdb_blob_make	KEYWORD2
+fdb_blob_read	KEYWORD2
+
+fdb_esp32_set_partition_label	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+FDB_NO_ERR	LITERAL1
+FDB_ERASE_ERR	LITERAL1
+FDB_READ_ERR	LITERAL1
+FDB_WRITE_ERR	LITERAL1
+FDB_PART_NOT_FOUND	LITERAL1
+FDB_KV_NAME_ERR	LITERAL1
+FDB_KV_NOT_EXIST	LITERAL1
+FDB_SECTOR_FULL	LITERAL1
+FDB_KV_UNMATCHED	LITERAL1
+FDB_TSL_NOT_FOUND	LITERAL1
+FDB_KVDB_CTRL_SET_LOCK	LITERAL1
+FDB_KVDB_CTRL_SET_UNLOCK	LITERAL1
+FDB_TSDB_CTRL_SET_LOCK	LITERAL1
+FDB_TSDB_CTRL_SET_UNLOCK	LITERAL1
+FDB_TSDB_CTRL_GET_LAST_TIME	LITERAL1
+FDB_TSL_UNUSED	LITERAL1
+FDB_TSL_PRE_WRITE	LITERAL1
+FDB_TSL_WRITTEN	LITERAL1
+FDB_TSL_USER_STATUS1	LITERAL1
+FDB_TSL_USER_STATUS2	LITERAL1
+FDB_TSL_DELETED	LITERAL1
